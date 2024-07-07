@@ -1,5 +1,13 @@
 make
 
-.\output\main.exe
+@echo off
 
-.\output.tga
+cd output
+
+main.exe
+
+gprof main.exe gmon.out > analysis.txt
+
+output.tga
+
+cd ..

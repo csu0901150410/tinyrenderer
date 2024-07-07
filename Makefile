@@ -1,8 +1,8 @@
 SYSCONF_LINK = g++
-CPPFLAGS     =
-LDFLAGS      =
+CPPFLAGS     = -ggdb -g -pg -O0
+LDFLAGS      = -g -pg
 LIBS         = -lm
-# CFLAGS 		 = -O2 -g
+CFLAGS 		 =
 
 SRCDIR = src
 DESTDIR = output
