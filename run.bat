@@ -4,7 +4,7 @@ make
 
 cd output
 
-main.exe
+main.exe ..\obj\african_head.obj
 
 gprof main.exe gmon.out > analysis.txt
 
